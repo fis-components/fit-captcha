@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"), require("react-dom"), require("classnames"), require("lodash"), require("fit-style"));
+		module.exports = factory(require("react"), require("react-dom"), require("classnames"), require("lodash"));
 	else if(typeof define === 'function' && define.amd)
-		define(["react", "react-dom", "classnames", "lodash", "fit-style"], factory);
+		define(["react", "react-dom", "classnames", "lodash"], factory);
 	else if(typeof exports === 'object')
-		exports["fit-captcha"] = factory(require("react"), require("react-dom"), require("classnames"), require("lodash"), require("fit-style"));
+		exports["fit-captcha"] = factory(require("react"), require("react-dom"), require("classnames"), require("lodash"));
 	else
-		root["fit-captcha"] = factory(root["react"], root["react-dom"], root["classnames"], root["lodash"], root["fit-style"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_6__, __WEBPACK_EXTERNAL_MODULE_11__) {
+		root["fit-captcha"] = factory(root["react"], root["react-dom"], root["classnames"], root["lodash"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_6__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -70,8 +70,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _captcha = __webpack_require__(2);
 
 	var _captcha2 = _interopRequireDefault(_captcha);
-
-	__webpack_require__(11);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -781,12 +779,6 @@ return /******/ (function(modules) { // webpackBootstrap
 			URL.revokeObjectURL(oldSrc);
 	}
 
-
-/***/ },
-/* 11 */
-/***/ function(module, exports) {
-
-	module.exports = __WEBPACK_EXTERNAL_MODULE_11__;
 
 /***/ }
 /******/ ])
