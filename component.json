@@ -1,0 +1,10 @@
+{
+    "name": "fit-captcha",
+    "description": "贴吧验证码",
+    "repos": "https://github.com/2betop/placeholder.git",
+    "main": "lib/index.js",
+    "tag": "master",
+    "reposType": "npm",
+    "dependencies": {},
+    "version": "1.1.9"
+}
